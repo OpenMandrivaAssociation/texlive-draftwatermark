@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/draftwatermark
+# catalog-date 2007-03-05 22:02:45 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-draftwatermark
 Version:	1.0
 Release:	1
@@ -48,6 +54,7 @@ on everpage.
 #- source
 %doc %{_texmfdistdir}/source/latex/draftwatermark/draftwatermark.dtx
 %doc %{_texmfdistdir}/source/latex/draftwatermark/draftwatermark.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ on everpage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
