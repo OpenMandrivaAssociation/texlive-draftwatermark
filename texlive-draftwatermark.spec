@@ -1,4 +1,4 @@
-# revision 15878
+# revision 25045
 # category Package
 # catalog-ctan /macros/latex/contrib/draftwatermark
 # catalog-date 2007-03-05 22:02:45 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-draftwatermark
 Version:	1.0
-Release:	2
+Release:	3
 Summary:	Put a grey textual watermark on document pages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/draftwatermark
@@ -41,6 +41,7 @@ on everpage.
 %{_texmfdistdir}/tex/latex/draftwatermark/draftwatermark.sty
 %doc %{_texmfdistdir}/doc/latex/draftwatermark/README
 %doc %{_texmfdistdir}/doc/latex/draftwatermark/draftwatermark.pdf
+%doc %{_texmfdistdir}/doc/latex/draftwatermark/test_draftwatermark.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/draftwatermark/draftwatermark.dtx
 %doc %{_texmfdistdir}/source/latex/draftwatermark/draftwatermark.ins
