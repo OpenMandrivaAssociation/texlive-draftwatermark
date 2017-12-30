@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.0
 Name:		texlive-draftwatermark
-Version:	1.0
-Release:	11
+Version:	1.2
+Release:	1
 Summary:	Put a grey textual watermark on document pages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/draftwatermark
