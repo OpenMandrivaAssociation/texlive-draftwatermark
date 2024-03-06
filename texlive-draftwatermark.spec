@@ -1,6 +1,6 @@
 Name:		texlive-draftwatermark
-Version:	57099
-Release:	2
+Version:	70401
+Release:	1
 Summary:	Put a grey textual watermark on document pages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/draftwatermark
