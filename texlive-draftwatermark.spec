@@ -3,7 +3,7 @@ Version:	70401
 Release:	1
 Summary:	Put a grey textual watermark on document pages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/draftwatermark
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/draftwatermark
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/draftwatermark.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/draftwatermark.doc.r%{version}.tar.xz
